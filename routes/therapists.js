@@ -4,7 +4,7 @@ const users = db.collection('users');
 const ther = db.collection('therapists');
 const sess = db.collection('sessions');
 const schedules = db.collection("schedules");
-const stripe = require('stripe')("sk_test_51IRM5vEkM6QFZKw2N9Ow9xCKwSd2b8J3JjWb2BL9kH5FVCXvJ5fSmFW6GvJot90XsUdgSfbtpPraG5u9Kmycvi5C00HIcjkWgG");
+const stripe = require('stripe')("");
 
 // * Get therapist info
 exports.getAllTherapists = async (req, res) => {
